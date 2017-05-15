@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+</head>
+<body>
+  <h1></h1>
+</body>
+<script type="text/javascript">
+  var things = ['cheese', 'wine', 'francesinha', 'football', 'cochinillo', 'stuff', 'Tiago', 'linux'];
+  var countries = ['French', 'British', 'Spanish'];
+  var thing = things[Math.floor(things.length * Math.random())]
+  var country = countries[Math.floor(countries.length * Math.random())]
+  document.querySelector('h1').textContent = `${country} ${thing} is better than portuguese ${thing}`;
+</script>
+</html>
